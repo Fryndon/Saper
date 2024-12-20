@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  background-color: rgb(65, 128, 191);
+}
+
+h1{
+  text-align: center;
+}
+.cell {
+  display: flex;
+  font-size: 100%;
+  background-color: rgb(127, 127, 127);
+  min-height: 50px;
+  min-width: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.fieldContainer {
+  display: grid;
+  gap: 3px;
+  margin-bottom: 2%;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1%;
+}
+.flag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2%;
+}
